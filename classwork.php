@@ -340,5 +340,10 @@ foreach ($cars as  $car){
     echo "i love $car <br>";
 }
 
-?>
+echo "<br>";
 
+Function greetMe(){
+    echo "<br> Good Afternoon";
+}
+greetMe();
+?>

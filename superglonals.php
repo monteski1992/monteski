@@ -41,7 +41,7 @@ echo 'Hello $z';
 <body>
     <div class="container">
     <div class="row">
-        <div class="col md-3 lx-6 sm-3">
+        <div class="col-md-3 col-lx-6 col-sm-3">
         <div class="for exampleformcontrolsection1">
         <form  class="form_control"action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
         <lable for="exampleFormControlInput1">First Name</lable>
