@@ -42,13 +42,13 @@ echo 'Hello $z';
     <div class="container">
     <div class="row">
         <div class="col-md-3 col-lx-6 col-sm-3">
-        <div class="for exampleformcontrolsection1">
-        <form  class="form_control"action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
-        <lable for="exampleFormControlInput1">First Name</lable>
+        <div class="for-exampleformcontrolsection1">
+        <form  class="form-control"action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+        <lable class="py-1">First Name</lable>
         <input class="form-control"type="text" placeholder="First Name" name="fname" />
-        <lable class="for">Last Name</lable>
+        <lable class="py-1">Last Name</lable>
         <input class="form-control"type="text" placeholder="Last Name" name="lname" />
-        <button type="submit"class="btn btn-danger">Submit</button>
+        <button type="submit"class="btn btn-danger py-1">Submit</button>
         </form>
         </div>
     </div>
