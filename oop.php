@@ -73,3 +73,11 @@ $ponkinLeaf = new vegetable();
 $ponkinLeaf->setName("ponkin leaf");
 
 echo $ponkinLeaf->getName();
+echo "<br";
+$ponkinleaf->setType("Berry");
+echo $ponkinleaf->getType();
+
+
+
+
+

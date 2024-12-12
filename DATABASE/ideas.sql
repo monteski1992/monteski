@@ -1,0 +1,1 @@
+CREATE TABLE developers( id int(11) not null AUTO_INCREMENT, name varchar(250) NOT NULL, email char(100) NOT NULL, address varchar(300) NOT NULL, created_at timestamp DEFAULT(CURRENT_TIMESTAMP), PRIMARY KEY (id) );
